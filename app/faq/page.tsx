@@ -1,8 +1,8 @@
 "use client"
 import useAuthRedirect from "@/hooks/useAuthRedirect";
+import React from "react";
 
-export default function page() {
+export default function Faq() {
   useAuthRedirect();
-
-  return <div>Home</div>;
+  return <div>Faq</div>;
 }
